@@ -79,6 +79,7 @@ var displayData = function(data, user) {
     i++;
   }
 
+
   $('#main').find('ul').html($results);
 
   $('.onlyUser').on('click', function() {
@@ -121,3 +122,5 @@ var postData = function(message, username) {
     }
   });
 };
+
+// postData is the function that responsible for sending messages to the server and write a comment
